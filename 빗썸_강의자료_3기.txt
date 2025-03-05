@@ -1,0 +1,410 @@
+
+Wi-Fi
+
+ID : bt-temp
+
+PW : qltTjazhfldk1@#
+(빗썸코리아1@#)
+
+강의 자료(3기)
+
+: jocoding.net/gptbitcoin-bithumb
+초기 세팅 못하신 분들 미리 진행해주시고
+막히시면 조교를 불러주세요
+
+
+GPT에게 맡기는
+
+AI 비트코인 투자 자동화
+
+조코딩
+
+
+
+강의 자료
+
+jocoding.net/gptbitcoin-bithumb
+
+
+목차
+
+• 1강 - 강의 개요
+
+• 2강 - 챗GPT로 AI 투자 원리 이해
+
+• 3강 - 환경세팅
+
+• 4강 - 최소 기능 제품 만들기
+
+• 5강 - 커스터마이징
+
+
+1강 - 강의 개요
+
+
+2021년에는...
+
+https://www.youtube.com/playlist?list=PLU9-uwewPMe3KKFMiIm41D5Nzx_fx2PUJ
+
+
+2021년 - 고정된 전략
+
+https://www.youtube.com/playlist?list=PLU9-uwewPMe3KKFMiIm41D5Nzx_fx2PUJ
+
+
+2021년 – 복잡한 AI 적용
+
+https://www.youtube.com/playlist?list=PLU9-uwewPMe3KKFMiIm41D5Nzx_fx2PUJ
+
+
+2024년 – 대 생성 AI의 시대
+
+
+2024년 – Large Multimodal Models (LMM)
+
+출처: OpenAI 유튜브 채널
+
+https://youtube.com/watch?v=DQacCB9tDaw
+
+
+2024년 – Large Multimodal Models (LMM)
+
+출처: OpenAI 유튜브 채널
+
+https://youtube.com/watch?v=DQacCB9tDaw
+
+
+2024년 - LMM + 긴 Context
+
+출처: https://deepmind.google/technologies/gemini/
+
+
+이제는 AI가 인간처럼
+
+데이터를 보고, 듣고
+종합적인 추론 및 판단 가능
+
+
+인간의 투자 판단 과정
+
+...
+
+
+각종 데이터 + 보조 지표
+
+차트 모양
+
+뉴스/커뮤니티
+
+투자 철학
+
+지금이니!!
+매수/매도
+
+
+AI의 투자 판단 과정
+
+...
+
+
+각종 데이터 + 보조 지표
+
+차트 모양
+
+뉴스/커뮤니티
+
+투자 철학
+
+지금이니!!
+매수/매도
+
+
+이번 강의에서 구현할 내용
+
+
+전략 + 데이터
+
+투자 판단          매수/매도/홀드
+
++ 이유
+
+
+추가로 구현 가능한 내용
+
+
+전략 + 데이터
+
+투자 판단
+
+매수/매도/홀드
+
++ 이유
+
+
+회고
+
+재귀 개선
+
+매매 기록
+
+실시간 현황
+웹사이트
+
+
+http://3.35.214.209:8501/
+
+
+AI에게 제공할 데이터
+
+•  차트 데이터(OHLCV)
+
+•  거래소 데이터
+
+•  공포 탐욕 인덱스
+
+•  최신 뉴스 데이터
+
+•  이전 매매 데이터 (회고용)
+
+•  (더 추가 가능)
+
+
+이건 자동매매의 구현 예시일 뿐
+
+여러분 만의 투자 데이터 & 전략을 담으면 됨
+
+
+※투자 유의※
+
+AI라고 완벽하지 않습니다.
+
+원금 손실이 발생할 수 있다는 점 유의하세요!
+투자의 책임은 투자자 본인에게 있습니다.
+
+
+출처: https://time.com/6300942/ai-progress-charts/
+
+
+출처: MS Build 2024
+https://www.youtube.com/watch?v=2bnayWpTpW8
+
+
+출처: Google I/O 2024
+https://www.youtube.com/watch?v=XEzRZ35urlk
+
+
+구축해놓으면 점점 좋아진다
+
+
+전략 + 데이터
+
+투자 판단
+
+매수/매도/홀드
+
++ 이유
+
+
+회고
+
+재귀 개선
+
+매매 기록
+
+실시간 현황
+웹사이트
+
+
+코딩 잘 모르는데 괜찮나요?
+
+
+코딩은 거의 다
+
+AI에게 시킵니다.
+
+
+(무료) 파이썬 기초
+
+https://www.youtube.com/playlist?list=PLU9-uwewPMe05-khW3YcDEaHMk_qA-7lI
+
+
+궁금한 것이 생겼을 때?
+
+코드가 이해가 안 될 때?
+
+
+AI에게 물어보세요!
+
+https://chatgpt.com
+https://claude.ai
+https://gemini.google.com
+
+
+2강 – 챗GPT로 AI 투자 원리 이해
+
+
+당신은 투자 전문가입니다. 현재 상황을 보고 '매수', '매도', '보유' 중 어떤 옵션이 가장
+좋을지 결정해주세요. JSON 형식으로 답변해주세요.
+
+응답 예시:
+
+{"decision":"구매","이유":"어떤 기술적 이유"},
+
+{"decision":"판매","이유":"어떤 기술적 이유"},
+
+{"decision":"보류","이유":"어떤 기술적 이유"}
+
+
+JSON 형식이란?
+
+
+You are an investment expert. Please look at the current situation and
+decide which option would be best among 'buy', 'sell' or 'hold'. Please
+respond with JSON data.
+
+Response Examples:
+
+{"decision":"buy","reason": "some technical reason"},
+
+{"decision":"sell","reason": "some technical reason"},
+
+{"decision":"hold","reason": "some technical reason"}
+
+
+Prompt
+
+{decision, reason}
+
+
+3강 - 환경 세팅
+
+
+환경 세팅
+
+1. 사전 세팅 점검
+
+https://www.youtube.com/watch?v=hkfNnzV1Klk
+
+2. 빗썸 세팅: API 키 발급
+
+3. 파이썬 라이브러리 설치
+
+
+환경 세팅 – API 키 발급
+
+https://www.bithumb.com/
+
+
+
+
+
+환경 세팅 – 파이썬 라이브러리 설치
+
+python-dotenv
+openai
+
+python-bithumb
+
+
+{'status': '5100', 'message':
+'Bad Request.(Request
+Time:reqTime1734622244119
+
+/nowTime1734622207402)'}
+
+
+4강 - 최소 기능 제품 만들기
+
+(MVP, Minimum Viable Product)
+
+
+1. 빗썸 차트 가져오기(30일 일봉)
+
+2. AI에게 차트 주고 투자 판단 받기(buy, sell, hold)
+
+3. 받은 데이터로 자동 매매하기
+
+
+(30일 일봉)
+
++
+
+Prompt
+
+{buy/sell/hold}
+
+
+5강 - 커스터마이징
+
+
+1. 투자 철학 반영하기
+
+2. 데이터 추가하기
+
+
+AI에 워렌버핏의
+
+투자 철학을 반영하자
+
+
+출처: HBO Becoming Warren Buffett
+
+
+출처: HBO Becoming Warren Buffett
+
+
+Rule No.1: Never lose money.
+Rule No.2: Never forget rule No.1.
+
+
+당신은 투자 전문가입니다. 현재 상황을 보고 '매수', '매도', '보유' 중 어떤 옵션이 가장
+좋을지 결정해주세요. JSON 형식으로 답변해주세요.
+
+응답 예시:
+
+{"decision":"구매","이유":"어떤 기술적 이유"},
+
+{"decision":"판매","이유":"어떤 기술적 이유"},
+
+{"decision":"보류","이유":"어떤 기술적 이유"}
+
+
+당신은 투자 전문가입니다.
+
+당신은 아래와 같은 투자 원칙으로 투자합니다:
+
+Rule No.1: Never lose money.
+Rule No.2: Never forget rule No.1.
+
+현재 상황을 보고 '매수', '매도', '보유' 중 어떤 옵션이 가장 좋을지 결정해주세요. JSON
+
+형식으로 답변해주세요.
+
+응답 예시:
+
+{"decision":"구매","이유":"어떤 기술적 이유"},
+
+{"decision":"판매","이유":"어떤 기술적 이유"},
+
+{"decision":"보류","이유":"어떤 기술적 이유"}
+
+
+공포 탐욕 인덱스 추가
+
+
+https://alternative.me/crypto/fear-and-greed-index/
+
+
+이후 강의 소개
+
+
+
+
+
+조코딩 네이버 카페
+
+https://naver.me/xcn8m7pr
+
+
+수강 만족도 조사
+
